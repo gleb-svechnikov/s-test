@@ -1,0 +1,112 @@
+[
+    {
+        "eventid": "1a",
+        "value": 12,
+        "datetime": "2021-07-17T04:30:00.000"
+    },
+    {
+        "eventid": "2a",
+        "value": 5,
+        "datetime": "2021-07-26T20:00:00.000"
+    },
+    {
+        "eventid": "3a",
+        "value": -3,
+        "datetime": "2021-08-01T23:00:00.000"
+    },
+    {
+        "eventid": "4a",
+        "value": 4,
+        "datetime": "2021-08-19T21:00:00.000"
+    },
+    {
+        "eventid": "5a",
+        "value": 14,
+        "datetime": "2021-08-22T04:00:00.000"
+    },
+    {
+        "eventid": "6a",
+        "value": 1,
+        "datetime": "2021-09-02T21:00:00.000"
+    },
+    {
+        "eventid": "7a",
+        "value": -5,
+        "datetime": "2021-09-15T23:59:00.000"
+    },
+    {
+        "eventid": "8a",
+        "value": 0,
+        "datetime": "2021-09-19T16:00:00.000"
+    },
+    {
+        "eventid": "9a",
+        "value": "5",
+        "datetime": "2021-10-03T22:00:00.000"
+    },
+    {
+        "eventid": "0b",
+        "value": 2,
+        "datetime": "2021-10-04T09:00:00.000"
+    },
+    {
+        "eventid": "2b",
+        "value": -6,
+        "datetime": "2021-10-05T13:00:00.000"
+    },
+    {
+        "eventid": "3b",
+        "value": 6,
+        "datetime": "2021-10-06T21:00:00.000"
+    },
+    {
+        "eventid": "4b",
+        "value": 10,
+        "datetime": "2021-10-07T04:00:00.000"
+    },
+    {
+        "eventid": "5b",
+        "value": 10,
+        "datetime": "2021-10-08T23:00:00.000"
+    },
+    {
+        "eventid": "6b",
+        "value": 10,
+        "datetime": "2021-10-09T22:00:00.000"
+    },
+    {
+        "eventid": "7b",
+        "value": -1,
+        "datetime": "2021-10-09T23:59:00.000"
+    },
+    {
+        "eventid": "8b",
+        "value": 1,
+        "datetime": "2021-10-09T23:59:00.000"
+    },
+    {
+        "eventid": "9b",
+        "value": 7,
+        "datetime": "2021-10-10T20:00:00.000"
+    },
+    {
+        "eventid": "0c",
+        "value": -3,
+        "datetime": "2021-10-11T21:00:00.000"
+    },
+    {
+        "eventid": "1c",
+        "value": -6,
+        "datetime": "2021-10-12T19:00:00.000"
+    },
+    {
+        "eventid": "2c",
+        "value": -7,
+        "datetime": "2021-10-14T20:00:00.000"
+    },
+    {
+        "eventid": "3c",
+        "value": 0,
+        "datetime": "2021-10-15T19:00:00.000"
+    }
+]

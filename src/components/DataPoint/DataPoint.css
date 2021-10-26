@@ -1,0 +1,10 @@
+.datetime {
+  color: white;
+}
+.value {
+  color: greenyellow;
+  padding: 0 16px;
+}
+.number {
+  text-align: right;
+}
