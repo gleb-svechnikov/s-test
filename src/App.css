@@ -4,16 +4,77 @@ body {
 .App {
   display: flex;
   gap: 32px;
+  overflow: hidden;
 }
-section,
-aside {
+.sidebar {
+  display: flex;
+  position: relative;
+}
+.sidebar button {
+  font-size: 50px;
+  height: 64px;
+  display: block;
+  z-index: 1;
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+.sidebar.move-out {
+  animation-name: moveOut;
+  animation-duration: 1.5s;
+}
+.sidebar.move-in {
+  animation-name: moveIn;
+  animation-duration: 1.5s;
+}
+
+.sidebar.right button {
+  text-align: left;
+}
+.sidebar.right button.show {
+  position: absolute;
+  left: -54px;
+}
+.sidebar.left button {
+  text-align: right;
+}
+
+.main-flex {
+  display: flex;
+  gap: 32px;
+  width: 100%;
+  border: 1px solid black;
+}
+.main-flex section,
+.main-flex aside {
   display: flex;
   overflow: hidden;
 }
-section {
+.main-flex section {
   flex: 1 1 auto;
-  height: 50vh;
+  height: calc(100vh - 2px);
 }
-aside {
+.main-flex aside {
   flex: 0 0 300px;
+}
+
+@keyframes moveOut {
+  0% {
+    width: 250px;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes moveIn {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 250px;
+  }
 }
