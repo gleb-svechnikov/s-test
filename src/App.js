@@ -32,6 +32,7 @@ function App() {
         width: chartWrapperRef.current.clientWidth,
       })
     }
+
     window.addEventListener('resize', handleResize)
   }, [])
 
@@ -59,22 +60,34 @@ function App() {
     event.target.parentElement.classList.remove('move-in')
     event.target.parentElement.classList.add('move-out')
     setLeftBarWidth(0)
+    setTimeout(() => {
+      window.dispatchEvent(new Event('resize'))
+    }, 650)
   }
   const showLeftBar = (event) => {
     event.target.parentElement.classList.remove('move-out')
     event.target.parentElement.classList.add('move-in')
     setLeftBarWidth(defaultSidebarWidth)
+    setTimeout(() => {
+      window.dispatchEvent(new Event('resize'))
+    }, 650)
   }
 
   const hideRightBar = (event) => {
     event.target.parentElement.classList.remove('move-in')
     event.target.parentElement.classList.add('move-out')
     setRightBarWidth(0)
+    setTimeout(() => {
+      window.dispatchEvent(new Event('resize'))
+    }, 650)
   }
   const showRightBar = (event) => {
     event.target.parentElement.classList.remove('move-out')
     event.target.parentElement.classList.add('move-in')
     setRightBarWidth(defaultSidebarWidth)
+    setTimeout(() => {
+      window.dispatchEvent(new Event('resize'))
+    }, 650)
   }
 
   return (
