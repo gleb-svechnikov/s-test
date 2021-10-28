@@ -1,7 +1,16 @@
+table {
+  border-collapse: collapse;
+}
 .table-header {
   text-align: left;
   padding-top: 16px;
+  color: #ddd;
 }
 .label {
   margin-bottom: 0;
+  color: #ddd;
+}
+
+tr.active {
+  background: darkgray;
 }

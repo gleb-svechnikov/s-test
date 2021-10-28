@@ -10,8 +10,8 @@ const DataPoint = ({ id, value, datetime }) => {
     removeDataPoint(event.target.dataset.id)
   }
   return (
-    <tr key={id}>
-      <td className="number">
+    <tr key={id} id={id}>
+      <td className="number ">
         <output className="datetime">{datetime}</output>
       </td>
       <td className="number">

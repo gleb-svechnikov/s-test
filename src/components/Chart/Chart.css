@@ -1,4 +1,10 @@
-#d3demo{
-	width: 80vw;
-	height: 50vh;
+#d3demo {
+  width: 80vw;
+  height: 50vh;
+}
+.circle {
+  fill: greenyellow;
+}
+.tooltip {
+  fill: greenyellow;
 }
